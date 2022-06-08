@@ -15,6 +15,12 @@ const About = () => {
     return (
         <div className='text-white mt-20'>
             <h1 className='text-center text-xl'><span className='coral'>---</span>About Me<span className='coral'>---</span></h1>
+            <div className='flex justify-center'>
+                <hr className='w-12' />
+            </div>
+            <div className='flex justify-center mt-1'>
+                <hr className='w-16' />
+            </div>
             <div class="hero mt-10">
                 <div class="hero-content flex-col lg:flex-row ml-12 gap-10">
                     <img src={afran} alt='' className='bg-gray-300 rounded-xl' />
