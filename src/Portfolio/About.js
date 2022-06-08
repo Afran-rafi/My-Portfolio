@@ -2,14 +2,14 @@ import React from 'react';
 import '../CSS/About.css'
 import afran from '../Images/Afran cartoon.png'
 import react from '../Images/React.png'
-import vue from '../Images/vue.svg'
-import js from '../Images/js.svg'
-import html from '../Images/html.svg'
-import css from '../Images/css.svg'
-import mongodb from '../Images/mongodb.svg'
-import node from '../Images/node.svg'
-import amazon from '../Images/amazon.svg'
-import typescript from '../Images/typescript.svg'
+import vue from '../Images/vue.png'
+import js from '../Images/js.png'
+import html from '../Images/html.png'
+import css from '../Images/css.png'
+import mongodb from '../Images/mongodb.png'
+import node from '../Images/node.png'
+import amazon from '../Images/amazon.png'
+import typescript from '../Images/typescript.png'
 
 const About = () => {
     return (
@@ -20,20 +20,20 @@ const About = () => {
                     <img src={afran} alt='' className='bg-gray-300 rounded-xl' />
                     <div className='ml-44 mr-20'>
                         <p>My name is Debashish D. Dev. I have completed my engineering on Computer Science in 2019.</p> <br />
-                        <p className='text-justify'>I started my journey with wordpress. I used to read a lots of book. I wanted to be a writer. I had a wordpress blog and always wanted to make the blog more beautifull. Thats how I've jummped into Web Development.</p> <br />
-                        <p>I want to make the internet minimal and easy to use. I am a mern full stack developer. I write poem in JavaScript.</p> <br />
+                        <p className='text-justify'>I started my journey with wordpress. I used to read a lots of book. I wanted to be a writer. I had a wordpress blog and always wanted to make the blog more beautifull. Thats how I've jummped into Web Development.</p><br />
+
                         <button class="bg-coral px-5 py-1 rounded font-bold">Download Resume</button> <br /> <br />
                         <p>I love to work with those tech:-</p>
-                        <div className='flex'>
+                        <div className='flex mt-2'>
                             <img src={react} alt="" />
-                            {/* <img src={vue} alt="" />
-                            <img src={js} alt="" />
-                            <img src={html} alt="" />
-                            <img src={css} alt="" />
-                            <img src={mongodb} alt="" />
-                            <img src={node} alt="" />
-                            <img src={amazon} alt="" />
-                            <img src={typescript} alt="" /> */}
+                            <img className='ml-2' src={vue} alt="" />
+                            <img className='ml-2' src={js} alt="" />
+                            <img className='ml-2' src={html} alt="" />
+                            <img className='ml-2' src={css} alt="" />
+                            <img className='' src={mongodb} alt="" />
+                            <img className='ml-2' src={node} alt="" />
+                            {/* <img className='ml-2' src={amazon} alt="" />
+                            <img className='ml-2' src={typescript} alt="" /> */}
                         </div>
                     </div>
                 </div>

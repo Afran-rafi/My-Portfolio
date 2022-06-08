@@ -12,10 +12,10 @@ const Home = () => {
                 <div className='text-white text-align'>
                     <p>
                         <Link to='/'><i class="fa-brands fa-facebook"></i></Link>
-                        <Link to='/'><i class="fa-brands fa-github"></i></Link>
-                        <Link to='/'><i class="fa-brands fa-linkedin"></i></Link>
-                        <Link to='/'><i class="fa-brands fa-instagram-square"></i></Link>
-                        <Link to='/'><i class="fa-brands fa-youtube"></i></Link>
+                        <Link to='/'><i class="fa-brands fa-github ml-2"></i></Link>
+                        <Link to='/'><i class="fa-brands fa-linkedin ml-2"></i></Link>
+                        <Link to='/'><i class="fa-brands fa-instagram-square ml-2"></i></Link>
+                        <Link to='/'><i class="fa-brands fa-youtube ml-2"></i></Link>
                     </p>
                     <p className='text-xl'>Hello, I'M <span className='coral font-bold'>Afran</span></p>
 
