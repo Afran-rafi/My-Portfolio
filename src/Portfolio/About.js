@@ -25,8 +25,7 @@ const About = () => {
                 <div class="hero-content flex-col lg:flex-row ml-12 gap-10">
                     <img src={afran} alt='' className='bg-gray-300 rounded-xl' />
                     <div className='ml-44 mr-20'>
-                        <p>My name is Debashish D. Dev. I have completed my engineering on Computer Science in 2019.</p> <br />
-                        <p className='text-justify'>I started my journey with wordpress. I used to read a lots of book. I wanted to be a writer. I had a wordpress blog and always wanted to make the blog more beautifull. Thats how I've jummped into Web Development.</p><br />
+                        <p className='text-justify'>I am a MERN stack web developer working with 6 months of learning experience. If you need any kind of web solution then you are welcome and I am here to solve this. I know web technologies and comfortable with working with these tools. I have done various projects in front-end development.I have comprehensive knowledge in programming including HTML, CSS,Bootstrap, Tailwind CSS, JavaScript, ReactJs, NodeJs, MongoDB, Express-JS Hands-on experience.</p><br />
 
                         <button class="bg-coral px-5 py-1 rounded font-bold">Download Resume</button> <br /> <br />
                         <p>I love to work with those tech:-</p>

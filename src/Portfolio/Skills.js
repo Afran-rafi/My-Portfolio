@@ -4,7 +4,7 @@ import '../CSS/Skills.css'
 
 const Skills = () => {
     return (
-        <div className='text-white '>
+        <div className='text-white mt-10'>
             <h1 className='text-center text-xl'><span className='coral'>---</span>My Skills<span className='coral'>---</span></h1>
             <div className='flex justify-center'>
                 <hr className='w-12' />
