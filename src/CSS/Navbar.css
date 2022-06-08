@@ -1,0 +1,11 @@
+.css:hover{
+    text-decoration: underline white 4px;
+    background: none !important;
+}
+
+.css:focus{
+    color: #fc703e;
+    text-decoration: underline coral 4px;
+    background: none !important;
+}
+

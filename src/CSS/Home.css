@@ -1,0 +1,29 @@
+.coral{
+    color: #f8571c;
+}
+.bg-coral{
+    background-color: #f8571c;
+}
+
+@media screen and (max-width:600px) {
+    
+    /* Home Page */
+    .ml-64{
+        margin: 0;
+    }
+
+    .text-align{
+        text-align: center;
+    }
+
+    /* About Page */
+
+    .ml-44{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .ml-12{
+        margin: 0;
+    }
+}
