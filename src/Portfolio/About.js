@@ -13,7 +13,7 @@ import typescript from '../Images/typescript.png'
 
 const About = () => {
     return (
-        <div className='text-white mt-20'>
+        <div className='text-white mt-20' id='about'>
             <h1 className='text-center text-xl'><span className='coral'>---</span>About Me<span className='coral'>---</span></h1>
             <div className='flex justify-center'>
                 <hr className='w-12' />

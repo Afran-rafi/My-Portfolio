@@ -1,20 +1,20 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import '../CSS/Navbar.css'
 import logo from '../Images/logo.png'
 
 const Navbar = ({ children }) => {
 
     const myItems = <>
-        <li><Link className='rounded-md h-10 mr-4 font-bold css' to='/'>Home</Link></li>
-        <li><Link className='rounded-md h-10 mr-4 font-bold css' to='/'>About</Link></li>
-        <li><Link className='rounded-md h-10 mr-4 font-bold css' to='/'>Project</Link></li>
-        <li><Link className='rounded-md h-10 mr-4 font-bold css' to='/'>Blog</Link></li>
-        <li><Link className='rounded-md h-10 mr-4 font-bold css' to='/'>Contact</Link></li>
+        <li><HashLink className='rounded-md h-10 mr-4 font-bold css' smooth to='#home'>Home</HashLink></li>
+        <li><HashLink className='rounded-md h-10 mr-4 font-bold css' smooth to='#about'>About</HashLink></li>
+        <li><HashLink className='rounded-md h-10 mr-4 font-bold css' smooth to='#project'>Project</HashLink></li>
+        <li><HashLink className='rounded-md h-10 mr-4 font-bold css' smooth to='#Blogs'>Blogs</HashLink></li>
+        <li><HashLink className='rounded-md h-10 mr-4 font-bold css' smooth to='#contact'>Contact</HashLink></li>
     </>;
 
     return (
-        <div class="drawer drawer-end">
+        <div class="drawer drawer-end" id='home'>
             <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
             <div class="drawer-content flex flex-col">
                 <div class="w-full navbar">

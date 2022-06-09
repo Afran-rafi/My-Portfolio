@@ -1,6 +1,7 @@
 .css:hover{
-    text-decoration: underline white 4px;
+    text-decoration: underline coral 4px;
     background: none !important;
+    color: coral;
 }
 
 .css:focus{
