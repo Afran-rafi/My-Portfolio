@@ -8,6 +8,7 @@ const Navbar = ({ children }) => {
     const myItems = <>
         <li><HashLink className='rounded-md h-10 mr-4 font-bold css' smooth to='#home'>Home</HashLink></li>
         <li><HashLink className='rounded-md h-10 mr-4 font-bold css' smooth to='#about'>About</HashLink></li>
+        <li><HashLink className='rounded-md h-10 mr-4 font-bold css' smooth to='#skills'>Skills</HashLink></li>
         <li><HashLink className='rounded-md h-10 mr-4 font-bold css' smooth to='#project'>Project</HashLink></li>
         <li><HashLink className='rounded-md h-10 mr-4 font-bold css' smooth to='#Blogs'>Blogs</HashLink></li>
         <li><HashLink className='rounded-md h-10 mr-4 font-bold css' smooth to='#contact'>Contact</HashLink></li>
