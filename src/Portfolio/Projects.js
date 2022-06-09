@@ -103,7 +103,9 @@ const Projects = () => {
                         </div> */}
                     </div>
                 </div>
-
+            </div>
+            <div className='flex justify-center mt-10'>
+                <Link to='/projects'><button className='bg-coral px-5 py-1 rounded font-bold text-white'>View All Project</button></Link>
             </div>
         </div>
     );

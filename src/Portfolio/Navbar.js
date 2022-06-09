@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import '../CSS/Navbar.css'
 import logo from '../Images/logo.png'
@@ -6,7 +7,7 @@ import logo from '../Images/logo.png'
 const Navbar = ({ children }) => {
 
     const myItems = <>
-        <li><HashLink className='rounded-md h-10 mr-4 font-bold css' smooth to='#home'>Home</HashLink></li>
+        <li><Link className='rounded-md h-10 mr-4 font-bold css' smooth to='/'>Home</Link></li>
         <li><HashLink className='rounded-md h-10 mr-4 font-bold css' smooth to='#about'>About</HashLink></li>
         <li><HashLink className='rounded-md h-10 mr-4 font-bold css' smooth to='#skills'>Skills</HashLink></li>
         <li><HashLink className='rounded-md h-10 mr-4 font-bold css' smooth to='#project'>Project</HashLink></li>
@@ -15,7 +16,7 @@ const Navbar = ({ children }) => {
     </>;
 
     return (
-        <div class="drawer drawer-end" id='home'>
+        <div class="drawer drawer-end">
             <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
             <div class="drawer-content flex flex-col">
                 <div class="w-full navbar">

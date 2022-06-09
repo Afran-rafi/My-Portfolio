@@ -8,8 +8,8 @@ const Home = () => {
     return (
         <div class="hero mt-10">
             <div class="hero-content flex-col lg:flex-row-reverse gap-6">
-                <img src={afran} alt="" class="rounded-full bg-white shadow-2xl ml-64" />
-                <div className='text-white text-align'>
+                <img src={afran} alt="" class="rounded-full bg-white shadow-2xl ml-64 lg:mx-10" />
+                <div className='text-white text-align lg:ml-8'>
                     <p>
                         <Link to='/'><i class="fa-brands fa-facebook"></i></Link>
                         <Link to='/'><i class="fa-brands fa-github ml-2"></i></Link>
@@ -22,10 +22,10 @@ const Home = () => {
                     <div style={{ fontSize: '40px' }} >
                         <Typed
                             strings={[
-                                'MERN Stack Developer',
-                                'Front-end Developer',
-                                'JavaScript Developer',
-                                'Software Developer'
+                                'MERN Stack Developer!! <i class="fa-brands fa-react"></i>',
+                                'Front-end Developer!! <i class="fa-solid fa-laptop-code"></i>',
+                                'JavaScript Developer!! <i class="fa-brands fa-js"></i>',
+                                'Software Developer!! <i class="fa-brands fa-node-js"></i>'
                             ]}
                             typeSpeed={50}
                             backSpeed={70}
