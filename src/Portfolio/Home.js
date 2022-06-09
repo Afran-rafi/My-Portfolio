@@ -24,17 +24,20 @@ const Home = () => {
                             strings={[
                                 'MERN Stack Developer',
                                 'Front-end Developer',
-                                'JavaScript Developer']}
+                                'JavaScript Developer',
+                                'Software Developer'
+                            ]}
                             typeSpeed={50}
                             backSpeed={70}
                             loop >
                         </Typed>
                     </div>
 
-                    <p>Knock of building applications with front and backend operations</p>
+                    {/* <p>Knock of building applications with front and backend operations</p> */}
+                    <p className='text-sm'>I'M Afran_Rafi. A highly skilled developer with strong confidence with quality and high performance web applications seeks the rules of Junior Software Developer at Javascript, React, Express JS and modern Javascript libraries.</p>
                     <div className='mt-4'>
-                        <button className='bg-coral px-5 py-1 rounded font-bold'>Hire me</button>
-                        <button className='bg-coral px-5 py-1 rounded font-bold ml-2'>Get Resume</button>
+                        <button className='bg-coral px-5 py-1 rounded font-bold'>Hire me <i class="fa-solid fa-user-graduate"></i></button>
+                        <button className='bg-coral px-5 py-1 rounded font-bold ml-2'>Get Resume <i class="fa-solid fa-cloud-arrow-down"></i></button>
                     </div>
                 </div>
             </div>

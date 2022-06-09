@@ -38,7 +38,6 @@ const Navbar = ({ children }) => {
                 <ul class="menu p-4 overflow-y-auto w-80 text-white bg-primary">
                     {myItems}
                 </ul>
-
             </div>
         </div>
     );

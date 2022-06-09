@@ -27,7 +27,7 @@ const About = () => {
                     <div className='ml-44 mr-20'>
                         <p className='text-justify'>I am a MERN stack web developer working with 6 months of learning experience. If you need any kind of web solution then you are welcome and I am here to solve this. I know web technologies and comfortable with working with these tools. I have done various projects in front-end development.I have comprehensive knowledge in programming including HTML, CSS,Bootstrap, Tailwind CSS, JavaScript, ReactJs, NodeJs, MongoDB, Express-JS Hands-on experience.</p><br />
 
-                        <button class="bg-coral px-5 py-1 rounded font-bold">Download Resume</button> <br /> <br />
+                        <button class="bg-coral px-5 py-1 rounded font-bold">Download Resume <i class="fa-solid fa-cloud-arrow-down"></i></button> <br /> <br />
                         <p>I love to work with those tech:-</p>
                         <div className='flex mt-2'>
                             <img src={react} alt="" />
