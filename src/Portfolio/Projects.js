@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import express from '../Images/Express.png'
-import fruits from '../Images/Fruit.png'
-import gym from '../Images/Gym.png'
+import express from '../Images/Express Car.png'
+import fruits from '../Images/Fruit-Warehouse.png'
+import gym from '../Images/Gym-Trainer.png'
 
 const Projects = () => {
     return (
@@ -17,7 +17,9 @@ const Projects = () => {
 
             <div className='grid lg:grid-cols-3 grid-cols-1 mt-10 lg:mx-20 lg:gap-x-10 gap-y-8'>
                 <div class="card w-96 text-white shadow-md bg-gray-900 ml-2 mr-2 lg:ml-0 lg:mr-0">
-                    <figure><img src={fruits} alt="Shoes" style={{ height: '200px' }} /></figure>
+                    <div className='card-img'>
+                        <figure><img className='project-img' src={fruits} alt="Shoes" /></figure>
+                    </div>
                     <div class="card-body">
                         <div className='flex gap-x-2 text-xl'>
                             <div className='tooltip' data-tip="Live Link">
@@ -46,7 +48,9 @@ const Projects = () => {
                     </div>
                 </div>
                 <div class="card w-96 text-white shadow-md bg-gray-900 ml-2 mr-2 lg:ml-0 lg:mr-0">
-                    <figure><img src={express} alt="Shoes" style={{ height: '200px' }} /></figure>
+                    <div className='card-img'>
+                        <figure><img className='project-img' src={express} alt="Shoes" /></figure>
+                    </div>
                     <div class="card-body">
                         <div className='flex gap-x-2 text-xl'>
                             <div className='tooltip' data-tip="Live Link">
@@ -75,7 +79,9 @@ const Projects = () => {
                     </div>
                 </div>
                 <div class="card w-96 text-white shadow-md bg-gray-900 ml-2 mr-2 lg:ml-0 lg:mr-0">
-                    <figure><img src={gym} alt="Shoes" style={{ height: '200px' }} /></figure>
+                    <div className='card-img'>
+                        <figure><img src={gym} alt="Shoes" /></figure>
+                    </div>
                     <div class="card-body">
                         <div className='flex gap-x-2 text-xl'>
                             <div className='tooltip' data-tip="Live Link">
