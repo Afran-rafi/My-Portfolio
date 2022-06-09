@@ -13,15 +13,15 @@ const Skills = () => {
                 <hr className='w-16' />
             </div>
 
-            <div className='grid lg:grid-cols-2 grid-cols-1 lg:gap-x-14 lg:mx-20 mx-4 mt-16'>
+            <div className='grid lg:grid-cols-2 grid-cols-1 lg:gap-x-14 lg:mx-20 mx-4 mt-10'>
                 <div>
                     <h1 className='h-1'>JavaScript</h1>
                     <ProgressBar
-                        width="550px"
+                        width="lg:550px 30px"
                         height="10px"
                         rect
                         fontColor="white"
-                        percentage="86"
+                        percentage="85"
                         rectPadding="1px"
                         rectBorderRadius="20px"
                         trackPathColor="transparent"
@@ -32,11 +32,11 @@ const Skills = () => {
                 <div>
                     <h1 className='h-1'>React.js</h1>
                     <ProgressBar
-                        width="550px"
+                        width="lg:550px 30px"
                         height="10px"
                         rect
                         fontColor="white"
-                        percentage="80"
+                        percentage="81"
                         rectPadding="1px"
                         rectBorderRadius="20px"
                         trackPathColor="transparent"
@@ -47,11 +47,11 @@ const Skills = () => {
                 <div>
                     <h1 className='h-1'>Frameworks</h1>
                     <ProgressBar
-                        width="550px"
+                        width="lg:550px 30px"
                         height="10px"
                         rect
                         fontColor="white"
-                        percentage="90"
+                        percentage="91"
                         rectPadding="1px"
                         rectBorderRadius="20px"
                         trackPathColor="transparent"
@@ -62,11 +62,11 @@ const Skills = () => {
                 <div>
                     <h1 className='h-1'>Node.Js</h1>
                     <ProgressBar
-                        width="550px"
+                        width="lg:550px 30px"
                         height="10px"
                         rect
                         fontColor="white"
-                        percentage="70"
+                        percentage="71"
                         rectPadding="1px"
                         rectBorderRadius="20px"
                         trackPathColor="transparent"
@@ -77,11 +77,11 @@ const Skills = () => {
                 <div>
                     <h1 className='h-1'>Mongodb</h1>
                     <ProgressBar
-                        width="550px"
+                        width="lg:550px 30px"
                         height="10px"
                         rect
                         fontColor="white"
-                        percentage="70"
+                        percentage="72"
                         rectPadding="1px"
                         rectBorderRadius="20px"
                         trackPathColor="transparent"
@@ -92,11 +92,11 @@ const Skills = () => {
                 <div>
                     <h1 className='h-1'>Python</h1>
                     <ProgressBar
-                        width="550px"
+                        width="lg:550px 30px"
                         height="10px"
                         rect
                         fontColor="white"
-                        percentage="10"
+                        percentage="11"
                         rectPadding="1px"
                         rectBorderRadius="20px"
                         trackPathColor="transparent"
@@ -107,11 +107,11 @@ const Skills = () => {
                 <div>
                     <h1 className='h-1'>HTML</h1>
                     <ProgressBar
-                        width="550px"
+                        width="lg:550px 30px"
                         height="10px"
                         rect
                         fontColor="white"
-                        percentage="95"
+                        percentage="94"
                         rectPadding="1px"
                         rectBorderRadius="20px"
                         trackPathColor="transparent"
@@ -122,11 +122,11 @@ const Skills = () => {
                 <div>
                     <h1 className='h-1'>CSS</h1>
                     <ProgressBar
-                        width="550px"
+                        width="lg:550px 30px"
                         height="10px"
                         rect
                         fontColor="white"
-                        percentage="90"
+                        percentage="93"
                         rectPadding="1px"
                         rectBorderRadius="20px"
                         trackPathColor="transparent"
