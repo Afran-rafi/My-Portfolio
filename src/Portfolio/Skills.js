@@ -1,4 +1,3 @@
-import ProgressBar from 'react-animated-progress-bar';
 import React from 'react';
 import '../CSS/Skills.css'
 

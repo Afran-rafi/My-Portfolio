@@ -18,7 +18,6 @@ const Home = () => {
                         <Link to='/'><i class="fa-brands fa-youtube ml-2"></i></Link>
                     </p>
                     <p className='text-xl'>Hello, I'M <span className='coral font-bold'>Afran</span></p>
-
                     <div style={{ fontSize: '40px' }} >
                         <Typed
                             strings={[
