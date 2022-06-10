@@ -16,6 +16,7 @@ import amazon from '../src/Images/amazon.png'
 import typescript from '../src/Images/typescript.png'
 import { Particles } from 'react-tsparticles';
 import ProjectDetails from './Portfolio/ProjectDetails';
+import Blogs from './Portfolio/Blogs';
 
 function App() {
 
@@ -252,6 +253,8 @@ function App() {
           <Route path='/' element={<HomePage></HomePage>}></Route>
           <Route path='/' element={<AllProjects></AllProjects>}></Route>
           <Route path='/projectsDetails/:id' element={<ProjectDetails></ProjectDetails>}></Route>
+          <Route path='/blogs' element={<Blogs></Blogs>}></Route>
+
         </Routes>
         <Footer></Footer>
       </Navbar>
