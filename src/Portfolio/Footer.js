@@ -6,7 +6,7 @@ const Footer = () => {
             <footer class="footer p-10 bg-black text-white">
                 <div>
                     <h1 className='text-6xl coral'>Afran_Rafi</h1>
-                    <p>ACME Industries Ltd.<br />Providing reliable tech since 1992</p>
+                    <p>AFRAN Industries Ltd.<br />Providing reliable tech since 1992</p>
                 </div>
                 <div>
                     <span class="footer-title">Services</span>

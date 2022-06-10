@@ -1,0 +1,86 @@
+[
+    {
+        "image":"https://i.ibb.co/ZNfs2Bk/Fruit-Warehouse.png",
+        "image1":"https://i.ibb.co/QXHtdD2/Fruit-Warehouse-copy.png",
+        "image2":"https://i.ibb.co/QDzr7VQ/Warehouse-pic-2.jpg",
+        "image3": "https://i.ibb.co/ryjcGxQ/Warehouse-pic-3.jpg",
+        "git": "https://github.com/Afran-rafi/Fruits-Warehouse-Client",
+        "Live": "https://assignment-11-5b872.web.app/",
+        "name": "Fruits Warehouse!",
+        "title":"MERN Stack",
+        "descrip": "Warehouse's application, where user can buy and seller can stock more product.",
+        "description1":"User can see all product on Home route.",
+        "description2":"Admin can update and delete product",
+        "description3":"Admin can add product by clicking on addfruits route",
+        "description4":"On My Items route user can see what he/she added on the website",
+        "description5":"On Blogs section everyone can see blogs.",
+        "technology":[
+          "React.Js",
+          "React-Tailwind",
+          "React Hooks Form",
+          "Node Js",
+          "Firebase",
+          "Express.Js",
+          "Mongodb",
+          "React-Query",
+          "Heroku"
+        ],
+        "gitBackend":"https://github.com/Afran-rafi/Fruits-Warehouse-Backend"
+      },
+
+    {
+      "image":"https://i.ibb.co/phd9tHk/Express-Car.png",
+      "image1":"https://i.ibb.co/xG3711v/Express-Car-Copy.png",
+      "image2":"https://i.ibb.co/bvvH9Nb/Express-pic-2.jpg",
+      "image3":"https://i.ibb.co/ChmC5p6/Express-pic-3.jpg",
+      "git": "https://github.com/Afran-rafi/Car-Parts-Client",
+      "Live": "https://assignment-12-cda50.web.app/",
+      "name": "Express Car Parts!",
+      "title":"MERN Stack",
+      "descrip": "A car parts selling application where user can easily buy car parts with few clicks",
+      "description1":"User can buy a product if he/she login",
+      "description2":"User can see their profile and order on dashboard page.",
+      "description3":"Admin and user has different dashboard Where admin can manage all user, all order, make admin, and also can add product to the website.",
+      "description4":"User have a route where they can add review about product or website.",
+      "description5":"Used JSON Web Token (JWT) to the server side to ensure more security from stealing data.",
+      "technology":[
+        "React.Js",
+        "React-Tailwind",
+        "React Hooks Form",
+        "Node Js",
+        "Firebase",
+        "Express.Js",
+        "Mongodb",
+        "React-Query",
+        "Heroku"
+      ],
+      "gitBackend":"https://github.com/Afran-rafi/Car-Parts-Backend"
+    },
+
+    {
+      "image":"https://i.ibb.co/3BXMqqk/Gym-Trainer.png",
+      "image1":"https://i.ibb.co/4PnFS9y/Gym-Trainer-copy.png",
+      "image2":"https://i.ibb.co/ys4hFLM/Gym-pic-2.jpg",
+      "image3":"https://i.ibb.co/Hqw99qJ/Gym-pic-3.jpg",
+      "git": "https://github.com/Afran-rafi/Gym-Trainer",
+      "Live": "https://assignment-10-b0017.web.app/",
+      "name": "Gym-Trainer!",
+      "title":"Landing Page",
+      "descrip": "gym trainer is the one-stop solution if you want to make fit yourself. where a trainer provide a gym service",
+      "description1":"User can login to the website by email-password or google sign in",
+      "description2":"User can reset password if he/see forgot the password",
+      "description3":"User can book a service by clicking on add button",
+      "description4":"On blog route user can see the blogs",
+      "description5":"On about route user can see about the trainer",
+      "technology":[
+        "React.Js",
+        "React-Tailwind",
+        "React Hooks Form",
+        "Firebase",
+        "HTML5",
+        "CSS3",
+        "Github"
+      ],
+      "gitBackend":""
+    }
+  ]
