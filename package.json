@@ -10,6 +10,7 @@
     "emailjs-com": "^3.2.0",
     "firebase": "^9.8.2",
     "react": "^18.1.0",
+    "react-animate-on-scroll": "^2.1.5",
     "react-animated-progress-bar": "^1.1.1",
     "react-dom": "^18.1.0",
     "react-loader-spinner": "^5.1.5",
