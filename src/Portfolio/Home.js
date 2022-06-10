@@ -37,7 +37,7 @@ const Home = () => {
                     <p className='text-sm'>I'M Afran_Rafi. A highly skilled developer with strong confidence with quality and high performance web applications seeks the rules of Junior Software Developer at Javascript, React, Express JS and modern Javascript libraries.</p>
                     <div className='mt-4'>
                         <button className='bg-coral px-5 py-1 rounded font-bold'>Hire me <i class="fa-solid fa-user-graduate"></i></button>
-                        <button className='bg-coral px-5 py-1 rounded font-bold ml-2'>Get Resume <i class="fa-solid fa-cloud-arrow-down"></i></button>
+                        <a href='Afran Resume.pdf' download><button className='bg-coral px-5 py-1 rounded font-bold ml-2'>Get Resume <i class="fa-solid fa-cloud-arrow-down"></i></button></a>
                     </div>
                 </div>
             </div>
